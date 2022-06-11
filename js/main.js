@@ -1,6 +1,6 @@
 const api={
     key: "4689c7d2424748a2c39cf46e2c995d7d",
-    baseurl: "http://api.openweathermap.org/data/2.5/"
+    baseurl: "https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/"
 }
  
 
