@@ -37,11 +37,11 @@ header input{
     border-radius: 16px 0px 16px 0px;
     border-bottom: 3px solid #09d7fcc9;
 
+    /*Text and Font*/ 
     color: #313131;
     font-size: 18px;
     font-weight: 300;
     transition: 0.2s ease-out;
-    
 }
 
 header input:focus{
