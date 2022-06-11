@@ -1,10 +1,34 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+    <title>Weather App</title>
     <head>
-        <header>App built using HTML, CSS, and Javascript</header>      
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="main.css"/>
     </head>
 
     <body>
-        <h2>Nothing</h2>
+        <div class="app-wrap">
+            <header>
+                <input type="text" autocomplete="off" class="search-box" placeholder="Enter a City...">
+            </header>
+
+            <main>
+                <section class="location">
+                    <div class="city">New York City, NY</div>
+                    <div class="date">Friday April 10, 1999</div>
+                </section>
+
+                <div class="current">
+                    <div class="temp">15<span> °c</span></div>
+                    <div class="weather">Sunny</div>
+                    <div class="hi-low">13°c / 16°c</div> 
+                </div>
+                
+            </main>
+        </div>
+
+        <script src="main.js"></script>
     </body>
 </html>
